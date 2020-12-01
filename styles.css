@@ -26,6 +26,7 @@ p {
 
 #btn-container {
     margin: 35px;
+    padding-left: 20px;
 }
 
 .btn {
@@ -81,7 +82,8 @@ nav ul,li{
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 70px 0 70px;
+    padding: 0 50px 0 50px;
+    padding-left: 66px;
 }
 
 nav li a:hover{
@@ -91,19 +93,6 @@ nav li a:hover{
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-#logo{
-    width: 7.9em;
-    height: 7.1em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 66%;
-}
-
-
-
 
 
 
@@ -120,21 +109,25 @@ nav li a:hover{
     max-width: 100%;
     opacity: .9;
     padding: 50px;;
+    justify-content: center;
 }
 
 
 
 #showcase h1 {
-    padding-top: 130px;
+    padding-top: 70px;
     padding-bottom: 0;
     font-size: 86px;
     font-style: italic ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2.2px;
     line-height: 70px;
+    padding-left: 60px;
 }
 
-
+#showcase p{
+    padding-left: 50px;
+}
 
 
 
@@ -147,11 +140,9 @@ nav li a:hover{
     background: #eaeaea;
     color: #333;
     height: 302px;
-    padding: 3em 3em 0 3em;
-    padding-bottom: 20px; 
+    padding: 30px 20px 20px 20px;
+    padding-bottom: 65px; 
     max-width: 100%;
-    margin-left: 18px;
-    margin:auto;
 }
 
 #section-a h2{
@@ -163,9 +154,15 @@ nav li a:hover{
     font-size: 22px;
 }
 
-.btn{
-    transform: none;
+#logosectiona{
+    width: 9.0em;
+    height: 5.5em;
+    position: relative;
+    left: 45%;
 }
+
+
+
 
 
 
@@ -204,10 +201,11 @@ nav li a:hover{
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-    position: relative;
-    max-width: 100%;
+    margin-right: 40px;
 }
-
+.card-content{
+    padding-right: 20px;
+}
 
 
 
@@ -223,7 +221,8 @@ nav li a:hover{
     background: #fff;
     color: #333;
     padding-bottom: 1.5em;
-
+    width:100%;
+    max-width: 100%;
 }
 
 
@@ -247,12 +246,14 @@ nav li a:hover{
 
 #section-d .box:first-child{
     background: rgba(172, 13, 13, 0.507);
+    font-size: 20px;
 }
 #section-d .box:nth-child(2){
     grid-column: 4/-1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 22px;
 }
 
 #email{
@@ -275,7 +276,6 @@ nav li a:hover{
     padding: 2em 0;
     text-align: center;
     font-size: 19px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #main-footer div{
