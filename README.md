@@ -65,7 +65,7 @@
                 </li>
                 <li>
                     <div class="card">
-                        <img id="editingimg" src="editing.jpeg" alt="editing">
+                        <img id="editingimg" src="editing.jpeg" alt="editingimg">
                         <div class="card-content">
                             <h3 class="card-title">Quality Video Editing</h3>
                             <p>Our editors are capable of providing engaging edits on your videos to hook your viewers
